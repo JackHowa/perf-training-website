@@ -45,7 +45,6 @@ server.use((req, res, next) => {
 });
 
 
-//
 // Performance API
 server.post("/api/perf", bodyParser.json({ type: "*/*" }), (req, res, next) => {
   const now = new Date().getTime() / 1000;
